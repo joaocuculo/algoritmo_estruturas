@@ -1,0 +1,20 @@
+inicio
+
+    real: mediaNotas;
+    real: nota1, nota2, nota3, nota4;
+
+    leia(nota1, nota2, nota3, nota4);
+    mediaNotas ← (nota1 + nota2 + nota3 + nota4) / 4;
+    escreva(mediaNotas)
+
+    se mediaNotas >= 7
+        então
+            inicio
+                escreva("Aluno aprovado!");
+            fim
+        senão
+            inicio
+                escreva("Aluno reprovado!");
+            fim
+    fimse
+fim
